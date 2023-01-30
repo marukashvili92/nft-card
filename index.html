@@ -17,16 +17,17 @@
       font-family: 'Outfit', sans-serif;
       display: flex;
       justify-content: center;
+      flex-direction: column;
       align-items: center;
       height: 100vh
     }
-    div{
+    .card{
       max-width:350px;
       padding:24px;
       border-radius: 15px;
       background-color: #15263F;
     }
-    img{
+    .main-img{
       max-width: 100%;
       border-radius: 8px
     }
@@ -40,7 +41,7 @@
                 justify-content: start;
                 color: white
     }
-    p{font-family: 'Outfit', sans-serif;
+    h2{font-family: 'Outfit', sans-serif;
                 font-weight: 300;
                 font-size: 18px;
                 display: flex;
@@ -48,6 +49,49 @@
                 justify-content: start;
                 color: #8BACD9;
                 font-size: 22px}
+    .middle{
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 1px solid #2E405A;
+    }
+                h3{
+      display: inline;
+      font-weight: 600;
+      color: #00FFF8;
+    }
+    .ethereum{
+      display: inline;
+    }
+    .time{
+      display: inline;
+      font-weight: 400;
+      color: #8BACD9;
+    }
+    .final{
+      display: flex;
+      margin-top: 16px;
+
+    }
+    .author{
+      display: flex;
+      width: 33px;
+      height: 33px;
+    }
+    .creator{
+      display: flex;
+      color: #8BACD9;
+      font-weight: 400;
+      margin-left: 16px;
+      margin-right: 5px;
+      margin-bottom: -7pxs;
+      width: 81px;
+      height: 20px;
+    }
+    .name{
+      display: flex;
+      color:#FFFFFF;
+      font-weight: 400;
+    }
     </style>
     <title>
       go for it!
@@ -57,35 +101,35 @@
   
   <body>
     <div class="card">
-      <span class="aye">
+      <div class="aye">
         <img class="main-img"
-            src=/back.jpg"
+            src="back.jpg"
             alt="this is the main image">
-      </span>
+      </div>
+      
+          
+      <h1>
+        Equilibrium #3429
+      </h1>
+      <h2>
+        Our Equilibrium collection promotes balance and calm.
+      </h2>
+
+      <div class="middle">
+        <h3>
+          <img class="ethereum"
+            src="./ethereum.svg"
+            alt="here we upload ethereum logo"/> 0.041ETH</h2>
+        </h3>
+        <p class="time"><img class="clock" src="clock.svg" alt=""> 3 days left</p>
+      </div>
+      <div class="final">
+        <img class="author" src="./author.png" alt=""/>
+        <p class="creator">Creation of</p>
+        <p class="name">Jules Wyvern</p>
+      </div>
+
+      <div class="attribution">
     </div>
-        
-    <h1>
-      Equilibrium #3429
-    </h1>
-    <p>
-      Our Equilibrium collection promotes balance and calm.
-    </p>
-
-    <span class="mid-container">
-      <h3>
-        <img class="ethereum"
-          src="/ethereum.svg"
-          alt="here we upload ethereum logo"/> 0.041ETH</h2>
-      </h3>
-      <p class="time"><img class="clock" src="/clock.svg" alt=""> 3 days left</p>
-    </span>
-    <div>
-      <img class="author" src="/author.png" alt=""/>
-      <p class="creator">Creation of</p>
-      <p class="name">Jules Wyvern</p>
-    </div>
-
-    <div class="attribution">
-
   </body>
 </html>
