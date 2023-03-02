@@ -4,6 +4,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
   }
 
   .card{
@@ -55,9 +56,8 @@ body{
     margin-block-start: 0.67em;
     margin-block-end: 0.67em;
     font-weight: 600;
-    font-size: 28px;
-    text-align: start;
-    color: white;
+    width: fit-content;
+    color: #ffffff;
     cursor: pointer;
   }
   h1:hover{
@@ -68,9 +68,8 @@ body{
 
     font-family: 'Outfit', sans-serif;
     font-weight: 300;
-    font-size: 18px;
+    font-size: 1.125rem;
     color: #8BACD9;
-    font-size: 18px;
     padding-bottom: 24px;
   }
 
@@ -103,7 +102,6 @@ body{
   }
 
   .author{
-    display: flex;
     width: 33px;
     height: 33px;
   }
@@ -113,7 +111,6 @@ body{
   }
 
   .creator{
-    display: flex;
     color: #8BACD9;
     font-weight: 400;
     margin-left: 16px;
@@ -124,7 +121,6 @@ body{
   }
 
   .name{
-    display: flex;
     color:#FFFFFF;
     font-weight: 400;
     cursor: pointer;
